@@ -11,4 +11,19 @@
 4. Necesidad de saber mas
 5. No se hacer un CV jaja
 
-> http://localhost:8080/lfponce/index.html
+# Los 5 Comandos mas usados!
+
+| Comando | Descripcion          |
+|---------|----------------------|
+|ls       | Listar Archivos      |
+|cd       | Cambiar Directorio   |
+|git      | Lenguaje UNIX        |
+|alias    | Agrupado de Comandos |
+|sudo     | Entrar como SuperUser|
+
+### Alias usados
+```bash
+markdown='cd Code/el-mundo-del-markdown | code .'
+mostuse='history | awk '\''{print $2}'\'' | sort | uniq -c | sort -nr | head -n 10'
+```
+
